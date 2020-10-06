@@ -1,0 +1,112 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+.log{
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background:transparent;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-style: inset;
+    border-radius: 100px / 120px;
+}
+
+input[type=text], input[type=password] {
+	text-align: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #9782ff;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+button[type=submit] {
+    background-color:#9782ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type=submit]:hover {
+    background-color: white;
+    color: #4B0082;
+    border: 1px solid #9782ff;
+}
+
+.log{
+	padding:100px;
+	text-align: center;
+}
+
+.tete{
+	 border-radius: 50px / 60px;
+	margin-bottom: 5%;
+	margin-right: 30%;
+	margin-left: 30%;
+	text-align: center;
+	border: solid #9782ff ;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	padding-top: 40px;
+	text-align: center;
+	background-color: transparent;
+	color:#4B0082;
+}
+
+body{
+	background:linear-gradient( to left, #9782ff, #82d7ff, #9782ff);
+	text-align: center;
+	font-family: Helvetica;
+}
+
+.bloc{
+	padding-left:300px;
+	padding-right:300px;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+.ins{
+    width:100%;
+    border: 1px solid #f1f1f1;
+    background:transparent;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-style: inset;
+    border-radius: 100px / 120px;
+    padding:100px;
+	text-align: center;
+}
+
+.transp{
+background-color: transparent;
+}
+
+label{
+	font-size: 20px;
+	color: #4B0082;
+}
+
+p{
+	font-size: 20px;
+	color:#4B0082;
+}
+
+.mdp{
+	text-align: center;
+    background-color:#9782ff;
+    color: white;
+    padding: 14px 300px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.mdp:hover {
+    background-color: white;
+    color: #9782ff;
+    border: 1px solid #9782ff;
+}
